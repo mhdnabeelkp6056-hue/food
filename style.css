@@ -1,19 +1,32 @@
 * {
-    padding: 0%;
-    margin: 0%;
+    padding: 0;
+    margin: 0;
     box-sizing: border-box;
 }
-.header {
+header {
     width: 100%;
     height: 100px;
     display: flex;
     justify-content: center;
     align-items: center;
 }
-.header .container {
+header .container {
     width: 100%;
     height: 100px;
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+header .container .logo{
+    width: 90px;
+}
+header .container ul {
+    display: flex;
+    gap: 20px;
+    list-style: none;
+}
+header .container ul li a {
+    list-style: none;
+    font-weight: 600;
+    color: black;
 }
